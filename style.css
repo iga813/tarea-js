@@ -1,15 +1,20 @@
 /* style.css */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f4f4;
+  background-image: url('https://images.unsplash.com/photo-1581093588401-22c4c4a1870e');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #ffffff;
   margin: 0;
   padding: 20px;
-  color: #333;
 }
 
 h1, h2 {
   text-align: center;
-  color: #1a73e8;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #000;
 }
 
 ul {
@@ -25,16 +30,16 @@ ul li {
 a {
   text-decoration: none;
   font-size: 18px;
-  color: #1a73e8;
-  border: 2px solid #1a73e8;
+  color: #ffffff;
+  background-color: rgba(26, 115, 232, 0.8);
   padding: 10px 20px;
   border-radius: 10px;
   transition: background 0.3s, color 0.3s;
 }
 
 a:hover {
-  background-color: #1a73e8;
-  color: white;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #1a73e8;
 }
 
 input, button {
@@ -47,7 +52,7 @@ button {
   background-color: #1a73e8;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
 }
 

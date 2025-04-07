@@ -17,7 +17,6 @@ h1, h2 {
   text-align: center;
   color: #ffffff;
   text-shadow: 1px 1px 3px #000;
-  text-shadow: 1px 1px 3px #000;
   margin-bottom: 40px;
 }
 
@@ -36,12 +35,12 @@ a {
   text-decoration: none;
   font-size: 20px;
   color: #ffffff;
-  text-shadow: 1px 1px 3px #000;
   background-color: rgba(26, 115, 232, 0.8);
   padding: 15px 30px;
   border-radius: 10px;
   transition: background 0.3s, color 0.3s;
   display: inline-block;
+  text-shadow: 1px 1px 3px #000;
 }
 
 a:hover {
@@ -59,6 +58,7 @@ input, button {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  text-shadow: 1px 1px 3px #000;
 }
 
 button {
@@ -74,9 +74,13 @@ button:hover {
 }
 
 #resultado, #respuesta, #output {
-  color: #00ff88;
-  text-shadow: 1px 1px 3px #000;
   margin-top: 30px;
   text-align: center;
   font-size: 20px;
+  color: #00ff88;
+  text-shadow: 1px 1px 3px #000;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
 }
